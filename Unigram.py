@@ -38,8 +38,3 @@ def bitArrayGen(word):
         elif pair[0].isdigit():
             result[(ord(pair[0]) - 49) * 5 + 160 + pair[1] - 1] = 1
     return result
-
-
-print(unigramGen("secure"))
-
-print(bitArrayGen("**"))
